@@ -1,7 +1,7 @@
 import { NextApiResponse } from "next";
 import { NextIronRequest, withSession } from "../../../util/session";
 
-const OAuthScope = ["identify", "email"].join(" ");
+const OAuthScope = ["identify"].join(" ");
 const OAuthData = new URLSearchParams({
   response_type: "code",
   client_id: process.env.CLIENT_ID as string,
