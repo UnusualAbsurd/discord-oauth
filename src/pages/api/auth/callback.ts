@@ -5,7 +5,7 @@ import axios from "axios";
 import { dbConnect } from "../../../util/mongodb";
 import { decrypt, encrypt } from "../../../util/crypt";
 
-const OAuthScope = ["identify", "email"].join(" ");
+const OAuthScope = ["identify"].join(" ");
 
 const handler = async (req: NextIronRequest, res: NextApiResponse) => {
   const { db } = await dbConnect();
