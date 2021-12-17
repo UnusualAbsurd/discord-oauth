@@ -33,7 +33,7 @@ export default function MainPage() {
               Discord Oauth2
             </button>
             </Link>
-            <Link href="https://github.com/UnusualAbsurd/discord-oauth2" passHref>
+            <Link href="https://github.com/UnusualAbsurd/discord-oauth" passHref>
             <button
               className="px-6 py-2 text-sm justify-start items-start text-black font-semibold rounded-full border border-black hover:bg-black hover:text-gray-50 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-5555dd-200 focus:ring-offset-2"
             >
