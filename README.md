@@ -1,6 +1,8 @@
 # Discord Oauth2 Example
 The methods was taken from [Dank Memer Rewrite Website](https://github.com/DankMemer/dankmemer.lol) but this code is simplified only for the oauth2 codes. The design is completlely different , just the methods.
 
+# [Live Preview](discord-oauth-react.netlify.app/)
+
 ## .env 
 ```env
 COOKIE_SECRET= COOKIE_SECRET
@@ -19,8 +21,8 @@ REDIS_HOST=localhost
 node -p "[ 32, 16 ].map(n => crypto.randomBytes(n).toString('base64'))"
 ```
 
-* Cookie Secret ( At leat **32** characters long. )
-[1password.com](https://1password.com/password-generator/)
+* Cookie Secret ( At leat **32** characters long. ) <br />
+#### [1password.com](https://1password.com/password-generator/)
 
 # Written By  
 [UnusualAbsurd](https://github.com/UnusualAbsurd)
