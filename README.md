@@ -1,4 +1,4 @@
-`# Discord Oauth2 Example
+# Discord Oauth2 Example
 The methods was taken from [Dank Memer Rewrite Website](https://github.com/DankMemer/dankmemer.lol) but this code is simplified only for the oauth2 codes. The design is completlely different , just the methods.
 
 ## .env 
